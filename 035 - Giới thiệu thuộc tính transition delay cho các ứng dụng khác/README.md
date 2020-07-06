@@ -1,0 +1,1 @@
+# 035 - Giới thiệu thuộc tính transition delay cho các ứng dụng khác

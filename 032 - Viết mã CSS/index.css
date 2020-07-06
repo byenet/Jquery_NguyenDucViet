@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-origin: padding-box;
+}
+
+.to {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+img.anh {
+    height: 300px;
+    transition: all 0.4s;
+} 
+
+.nenxanh {
+    width: 400px;
+    height: 300px;
+    background: rgba(173, 216, 230, 0.42);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.4s;
+} 
+
+.thanh1, .thanh2 {
+    width: 350px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    top: 163px;
+    left: 20px;
+    z-index: 3;
+    transition: all 0.4s;
+}
+
+.chuto, .chunho{
+    position: absolute;
+    z-index: 4;
+    top:100px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    color: white;
+    font-family: segoe ui light;
+    font-size:32px;
+    transition: all 0.4s;
+}
+
+.chunho{
+    font-size: 15px;
+    top: 193px;
+    padding: 0 40px;
+    text-transform: uppercase;
+    width: 80%;
+}
