@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.khoitext {
+    font-family: segoe ui light;
+    font-size: 18px;
+    color: gray;
+    width: 1400px;
+    margin: auto;
+}
+
+.khoi a {
+    color: black;
+    font-family: segoe ui light;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.khoi {
+    width: 260px;
+    float: left;
+    height: 500px;
+    margin: 20px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.giaodien {
+    width: 900px;
+    height: auto;
+    margin: auto;
+}
