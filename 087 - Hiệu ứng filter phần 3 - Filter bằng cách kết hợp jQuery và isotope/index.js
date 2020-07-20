@@ -5,7 +5,9 @@ $(function () {
 
     // code cho phan nut
     $('nav ul li a').click(function (e) { 
+      // console.log('da click');
       e.preventDefault();
+      console.log(this);
       var danhmuc = $(this).data('danhmucanh');
       var ten = $(this).text();
       
@@ -20,3 +22,4 @@ $(function () {
       
     });
 });
+
